@@ -34,6 +34,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v2.2.0
         with:
-          tags: v0.0.1
+          tags: surenpi/helm-push:v0.0.1
           push: true
           platform: linux/amd64, linux/arm64
