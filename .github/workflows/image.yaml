@@ -36,4 +36,4 @@ jobs:
         with:
           tags: surenpi/helm-push:v0.0.1
           push: true
-          platforms: linux/amd64, linux/arm64
+          platforms: linux/amd64,linux/arm64
